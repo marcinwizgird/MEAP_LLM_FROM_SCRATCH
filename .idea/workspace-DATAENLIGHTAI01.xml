@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1baa8ab7-f805-4257-a4f8-93a455523fdf" name="Changes" comment="LLM From Scratch - CH6 CFTN - Focal Loss for imbalanced classes implememted" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="34ZCqvLubwxLJIbaJmGIoimPZWK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marci/OneDrive/DEV/EDU/AIML/Deep Learning/Master and Build LLMs fron Scratch/Deepseek from Scratch/CH3/Original Content&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marci\OneDrive\DEV\EDU\AIML\Deep Learning\Master and Build LLMs fron Scratch\Deepseek from Scratch\CH3\Original Content" />
+      <recent name="C:\Users\marci\OneDrive\DEV\EDU\AIML\Deep Learning\Master and Build LLMs fron Scratch\Mastering and Building LLM course\CH5" />
+      <recent name="C:\Users\marci\OneDrive\DEV\EDU\AIML\Deep Learning\Master and Build LLMs fron Scratch\Deepseek from Scratch\CH4" />
+      <recent name="C:\Users\marci\OneDrive\DEV\EDU\AIML\Deep Learning\Master and Build LLMs fron Scratch\Mastering and Building LLM course\CH4\mla" />
+      <recent name="C:\Users\marci\OneDrive\DEV\EDU\AIML\Deep Learning\Master and Build LLMs fron Scratch\Mastering and Building LLM course\CH4\kv_cache" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marci\OneDrive\DEV\EDU\AIML\Deep Learning\Master and Build LLMs fron Scratch\Mastering and Building LLM course" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1baa8ab7-f805-4257-a4f8-93a455523fdf" name="Changes" comment="" />
+      <created>1761411901087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761411901087</updated>
+      <workItem from="1761411902165" duration="508000" />
+      <workItem from="1761412454465" duration="2150000" />
+      <workItem from="1761480781152" duration="4721000" />
+      <workItem from="1761556482738" duration="12829000" />
+      <workItem from="1761681283398" duration="642000" />
+      <workItem from="1761730521892" duration="6126000" />
+      <workItem from="1762494488835" duration="3764000" />
+      <workItem from="1763060399586" duration="12220000" />
+      <workItem from="1763276160800" duration="1601000" />
+      <workItem from="1763357648600" duration="5210000" />
+      <workItem from="1763399814331" duration="6851000" />
+      <workItem from="1764052846257" duration="595000" />
+      <workItem from="1764064996362" duration="541000" />
+      <workItem from="1764224327910" duration="780000" />
+      <workItem from="1764226610228" duration="1963000" />
+      <workItem from="1764830595514" duration="1013000" />
+      <workItem from="1765172666431" duration="3607000" />
+      <workItem from="1765288399989" duration="1169000" />
+      <workItem from="1765303088661" duration="595000" />
+      <workItem from="1765399536286" duration="2325000" />
+      <workItem from="1765440986595" duration="593000" />
+      <workItem from="1765652665080" duration="3569000" />
+      <workItem from="1766138135629" duration="1818000" />
+      <workItem from="1766488457920" duration="7684000" />
+      <workItem from="1770615001999" duration="21714000" />
+      <workItem from="1770877520645" duration="58591000" />
+      <workItem from="1773003603088" duration="2310000" />
+      <workItem from="1773247989503" duration="1194000" />
+      <workItem from="1773308250420" duration="10295000" />
+      <workItem from="1774086777600" duration="5828000" />
+      <workItem from="1775819161928" duration="592000" />
+      <workItem from="1776058636388" duration="24504000" />
+      <workItem from="1776431309910" duration="13947000" />
+      <workItem from="1777020481671" duration="2705000" />
+      <workItem from="1777307653097" duration="4414000" />
+      <workItem from="1778179920352" duration="27051000" />
+      <workItem from="1778489574891" duration="22655000" />
+      <workItem from="1779211728260" duration="10534000" />
+      <workItem from="1779697699076" duration="796000" />
+    </task>
+    <task id="LOCAL-00001" summary="Simple Attention Completed">
+      <option name="closed" value="true" />
+      <created>1761485186162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761485186162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="MHA with combined weights implemented">
+      <option name="closed" value="true" />
+      <created>1763898957818</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763898957818</updated>
+    </task>
+    <task id="LOCAL-00003" summary="MHA with einsum implemented">
+      <option name="closed" value="true" />
+      <created>1767181017948</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767181017948</updated>
+    </task>
+    <task id="LOCAL-00004" summary="MHA with einsum implemented">
+      <option name="closed" value="true" />
+      <created>1770615031712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770615031712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="MHA with einsum implemented">
+      <option name="closed" value="true" />
+      <created>1770658464777</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770658464777</updated>
+    </task>
+    <task id="LOCAL-00006" summary="MHA with einsum implemented">
+      <option name="closed" value="true" />
+      <created>1770826871354</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770826871354</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Grouped-Query Attention implemented.&#10;GQA Testing to be performed.">
+      <option name="closed" value="true" />
+      <created>1771523313111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771523313111</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Grouped-Query Attention implemented.&#10;GQA Testing to be performed.">
+      <option name="closed" value="true" />
+      <created>1771527628772</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771527628772</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Multi-Head Latent Attention implemented.&#10;MHLA Testing to be performed.">
+      <option name="closed" value="true" />
+      <created>1772186586198</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772186586198</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DeepSeek Group Query Attention Implemented.">
+      <option name="closed" value="true" />
+      <created>1774109971797</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1774109971797</updated>
+    </task>
+    <task id="LOCAL-00011" summary="DeepSeek Group Query Attention Implemented.">
+      <option name="closed" value="true" />
+      <created>1776252809400</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1776252809400</updated>
+    </task>
+    <task id="LOCAL-00012" summary="DeepSeek - MLA without MHA implemented">
+      <option name="closed" value="true" />
+      <created>1778185784187</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1778185784187</updated>
+    </task>
+    <task id="LOCAL-00013" summary="DeepSeek - MLA with MHA implemented">
+      <option name="closed" value="true" />
+      <created>1778256489529</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1778256489529</updated>
+    </task>
+    <task id="LOCAL-00014" summary="DeepSeek - MLA - ROPE Embeddings implemented">
+      <option name="closed" value="true" />
+      <created>1778832119262</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1778832119262</updated>
+    </task>
+    <task id="LOCAL-00015" summary="LLM From Scratch - CH6 CFTN - Focal Loss for imbalanced classes implememted">
+      <option name="closed" value="true" />
+      <created>1779479743707</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1779479743707</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Simple Attention Completed" />
+    <MESSAGE value="MHA with combined weights implemented" />
+    <MESSAGE value="MHA with einsum implemented" />
+    <MESSAGE value="Grouped-Query Attention implemented.&#10;GQA Testing to be performed." />
+    <MESSAGE value="Multi-Head Latent Attention implemented.&#10;MHLA Testing to be performed." />
+    <MESSAGE value="DeepSeek Group Query Attention Implemented." />
+    <MESSAGE value="DeepSeek - MLA without MHA implemented" />
+    <MESSAGE value="DeepSeek - MLA with MHA implemented" />
+    <MESSAGE value="DeepSeek - MLA - ROPE Embeddings implemented" />
+    <MESSAGE value="LLM From Scratch - CH6 CFTN - Focal Loss for imbalanced classes implememted" />
+    <option name="LAST_COMMIT_MESSAGE" value="LLM From Scratch - CH6 CFTN - Focal Loss for imbalanced classes implememted" />
+  </component>
+</project>
